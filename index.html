@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Barbearia Artigas - Agendamento e serviços para autoestima e qualidade de vida.">
+    <title>Barbearia Artigas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo-principal">Barbearia Artigas</h1>
+    </header>
+
+    <main>
+        <section class="sobre">
+            <img id="banner" src="banner.jpg" alt="Banner da Barbearia Artigas, mostrando um ambiente moderno e aconchegante">
+
+            <h2 class="titulo-centralizado">Sobre a Barbearia Artigas</h2>
+            <p>Localizada no centro da cidade, a Barbearia Artigas traz para o mercado o que há de melhor para a sua autoestima.</p>
+
+            <p id="missao">Nossa missão é <em>"proporcionar autoestima e qualidade de vida para nossos clientes"</em>.</p>
+            
+            <p>Oferecemos profissionais antenados às mudanças no mundo da moda, com um atendimento padrão de excelência e agilidade.</p>
+        </section>
+
+        <section class="beneficios">
+            <h3 class="titulo-centralizado">Benefícios</h3>
+            <ul class="itens">
+                <li>Conforto</li>
+                <li>Dicas de estilo</li>
+                <li>Promoções e pacotes</li>
+                <li>Agendamento rápido</li>
+                <li>Higiene e cuidado</li>
+            </ul>
+            <img id="beneficios" src="beneficios.jpg" alt="Imagem de benefícios, com ambiente confortável e moderno da barbearia">
+        </section>
+
+        <section class="agendamento" aria-labelledby="agendamento-header">
+            <h2 class="titulo-centralizado" id="agendamento-header">Agende seu Horário</h2>
+            <form id="form-agendamento" action="#" method="post" novalidate>
+                <label for="data">Selecione a Data:</label>
+                <input type="date" id="data" name="data" required aria-required="true">
+
+                <label for="hora">Selecione seu Horário:</label>
+                <input type="time" id="hora" name="hora" required aria-required="true">
+
+                <button type="submit" id="agendar">Agendar</button>
+            </form>
+            <p id="mensagem-sucesso" class="sucesso-mensagem" style="display: none;">Horário agendado com sucesso!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Barbearia Artigas - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; 
+    color: #333; 
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #252525;
+    color: rgb(249, 141, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+
+.titulo-principal {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.sobre, .beneficios, .agendamento {
+    margin-bottom: 40px;
+}
+
+
+.titulo-centralizado {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #272727;;
+    margin-bottom: 20px;
+}
+
+
+.sobre p, .beneficios p, .agendamento p {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+
+#banner{
+    width: 110%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+#beneficios {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+
+.itens {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.itens li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #1c1c1c;
+}
+
+.agendamento form {
+    background-color: rgb(178, 178, 178);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.agendamento label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.agendamento input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.agendamento button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.agendamento button:hover {
+    background-color: #555;
+}
+
+
+.sucesso-mensagem {
+    text-align: center;
+    font-size: 1.1rem;
+    color: green;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .titulo-principal {
+        font-size: 2.5rem;
+    }
+
+    
+    .titulo-centralizado {
+        font-size: 1.7rem;
+    }
+
+    
+    #banner {
+        max-height: 300px;
+    }
+
+   
+    .itens li {
+        font-size: 1rem;
+    }
+
+    
+    .agendamento form {
+        padding: 15px;
+    }
+}
